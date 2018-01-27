@@ -1,0 +1,421 @@
+@import url('https://fonts.googleapis.com/css?family=Jura:300,400,500,600,700&subset=cyrillic,cyrillic-ext');
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+html {
+	font-family: Jura;
+}
+
+html,
+body {
+	height: 100%;
+	background-color: #fafafa;
+}
+
+/*цвет фона для страниц сайта*/
+
+/*стиль верхнего меню*/
+
+.menu {
+	float: left;
+	margin-left: 21px;
+	margin-top: 45px;
+}
+
+.menu li {
+	list-style-type: none;
+	font-style: italic;
+	margin-right: 27px;
+	text-align: center;
+	display: inline-block;
+	font-size: 32px;
+}
+
+.menu li a {
+	text-decoration: none;
+	color: darkorange;
+}
+
+
+.menu li a:hover {
+	border-bottom: 2px solid darkorange;
+}
+
+.active {
+	font-weight: 700;
+	border-bottom: 3px solid darkorange;
+}
+
+.tlf-i-grafik {
+	float: right;
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	margin-right: 30px;
+	margin-top: 15px;
+}
+
+.banner-glavnaya {
+	width: 100%;
+	height: 459px;
+	background-image: url(img/adidas-banner1.jpg);
+}
+
+.banner-glavnaya h1 {
+	letter-spacing: 0.1px;
+	font-size: 52px;
+	text-align: center;
+	font-weight: 400;
+}
+
+.banner-glavnaya a {
+	display: block;
+	text-decoration: none;
+	float: left;
+	height: 30px;
+	width: 197px;
+	text-align: center;
+	line-height: 26px;
+	color: white;
+	font-size: 22px;
+	font-weight: 500;
+	background: linear-gradient(to top, #ff512f, #fea998);
+	border-radius: 15px;
+	box-shadow: 2px 4px 4px #ccc;
+	margin-left: 228px;
+	margin-top: 64px;
+}
+
+.banner-glavnaya a:hover {
+	background: linear-gradient(to top, #fea998, #ff512f);
+}
+
+.banner-glavnaya a:active {
+	box-shadow: 1px 2px 2px #ccc;
+}
+
+.banner-text {
+	width: 50%;
+	margin-top: 124px;
+	margin-left: 100px;
+	float: left;
+}
+
+/*Для  страницы товаров*/
+
+.h3-tovari {
+	color: black;
+	font-size: 25px;
+	font-weight: 500;
+	background-color: #ffe4b1;
+	line-height: 24px;
+	padding-bottom: 2px;
+
+}
+
+
+
+
+
+
+
+
+
+.xar-ki {
+	list-style-type: circle;
+	line-height: 25px;
+	font-size: 20px;
+	font-weight: 300;
+
+}
+
+.xar-ki li {
+	margin-left: 20px;
+}
+
+
+
+.ramka {
+	outline: 3px solid darkorange;
+	width: 100%;
+}
+
+.ramka:hover {
+	/* border: none;
+   padding-left: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 2px;*/
+	outline: none;
+}
+
+/*Каталог*/
+
+/*форма контактов*/
+
+input[type="text"]:focus,
+input[type="email"]:focus {
+	background-color: black;
+	color: white;
+}
+
+input[type="text"],
+input[type="email"] {
+	font-size: 15px;
+}
+
+input[type="text"],
+textarea {
+	text-transform: capitalize;
+}
+
+textarea {
+	resize: vertical;
+}
+
+input[type="submit"] {
+	float: left;
+	width: 99px;
+	text-align: center;
+	line-height: 26px;
+	color: white;
+	font-size: 16px;
+	background: linear-gradient(to top, #ff512f, #fea998);
+	box-shadow: 2px 4px 4px #ccc;
+	margin-left: 0px;
+	margin-top: 2px;
+}
+
+input[type="reset"] {
+	float: right;
+	width: 99px;
+	text-align: center;
+	line-height: 26px;
+	color: white;
+	font-size: 16px;
+	background: linear-gradient(to top, #ff512f, #fea998);
+	box-shadow: 2px 4px 4px #ccc;
+	margin-right: 5px;
+}
+
+input[type="submit"]:focus,
+input[type="reset"]:focus {
+	outline: none;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+	cursor: pointer;
+}
+
+
+.container {
+	max-width: 1366px;
+	width: 100%;
+	margin: auto;
+	min-height: 100%;
+	background-color: white;
+}
+
+.header {
+	width: 100%;
+	height: 150px;
+	background-color: black;
+}
+
+.logo {
+	margin-top: 20px;
+	margin-left: 40px;
+	margin-right: 10px;
+	float: left;
+}
+
+.clr {
+	clear: both;
+	height: 200px;
+}
+
+.footer {
+	height: 200px;
+	background-color: black;
+	clear: both;
+	margin: auto;
+	max-width: 1366px;
+	width: 100%;
+	margin-top: -200px;
+}
+
+.map {
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.o-kompanii {
+	float: left;
+	color: white;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+
+.telefon-footer {
+	float: right;
+	color: white;
+	font-size: 32px;
+	position: relative;
+	top: 66px;
+	right: 58px;
+
+}
+
+.copyright {
+	float: right;
+	color: white;
+	position: relative;
+	top: 161px;
+	right: 11px;
+
+}
+
+.foto-tovar {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.buy-button {
+	display: block;
+	text-align: center;
+	height: 36px;
+	width: 121px;
+	line-height: 26px;
+	color: white;
+	font-size: 28px;
+	font-weight: 500;
+	background: linear-gradient(to top, #ff512f, #fea998);
+	border-radius: 15px;
+	box-shadow: 2px 4px 4px #ccc;
+	cursor: pointer;
+}
+
+.buy-button:hover {
+	background: linear-gradient(to top, #fea998, #ff512f);
+}
+
+.buy-button:active {
+	box-shadow: 1px 2px 2px #ccc;
+}
+
+.buy-button:focus {
+	outline: none;
+}
+
+.kr-opis-2 p {
+	font-size: 20px;
+	font-weight: 300;
+}
+
+.text-vse {
+	clear: both;
+	margin-bottom: 10px;
+}
+
+.text-vse p {
+	font-size: 20px;
+	font-weight: 300;
+}
+
+.foto-katalog {
+	margin-bottom: 10px;
+}
+
+.ssilka-katalog {
+	text-align: center;
+}
+
+.razdelitel {
+	color: #ccc;
+	height: 4px;
+	background-color: #ccc;
+	border: none;
+}
+
+.catalog {
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: 600;
+	margin: 5px 0px;
+	display: block;
+
+}
+
+.main h1 {
+	text-align: center;
+	font-size: 41px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+
+.tovar-katalog {
+	float: left;
+	width: 30%;
+	margin: 5px 22px;
+}
+
+
+.blok-sprava-ot-tovara {
+	overflow: hidden;
+	height: 350px;
+}
+
+.forma {
+	width: 374px;
+	padding-left: 5px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	margin-left: 5px;
+	margin-bottom: 10px;
+	background-color: #ffedcf;
+	border-radius: 10px;
+	border: 2px solid darkorange;
+}
+
+.clearfix {
+	clear: both;
+}
+
+.ramka-2 {
+	outline: 3px solid darkorange;
+}
+
+.ramka-2:hover {
+	outline: none;
+}
+
+.main {
+	margin-left: 5px;
+}
+
+.tsena {
+	font-size: 35px;
+	border-bottom: 2px dashed black;
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+
+}
+
+.buy-knopka {
+	clear: both;
+	margin-top: 112px;
+	margin-left: 82px;
+	margin-bottom: 118px;
+}
+
+}
